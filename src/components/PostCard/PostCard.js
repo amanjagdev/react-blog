@@ -1,11 +1,11 @@
 import React from 'react'
 
-const About = () => {
+const PostCard = () => {
     return (
         <div>
-            About Page
+            
         </div>
     )
 }
 
-export default About
+export default PostCard

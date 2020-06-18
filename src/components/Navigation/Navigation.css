@@ -1,0 +1,30 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 3px solid black;
+}
+
+nav .logo {
+  width: 70%;
+  padding-left: 10%;
+}
+
+nav .links {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Navigation.css.map */

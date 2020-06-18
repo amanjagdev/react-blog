@@ -1,7 +1,7 @@
-import { createClient } from 'contentful'
+import { createClient } from 'contentful';
 
-const SPACE_ID = process.env.SPACE_ID
-const ACCESS_TOKEN = process.env.ACCESS_TOKEN 
+const SPACE_ID = process.env.REACT_APP_SPACE_ID
+const ACCESS_TOKEN = process.env.REACT_APP_ACCESS_TOKEN 
 
 export function getPosts() {
   const client = createClient({

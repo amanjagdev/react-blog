@@ -7,9 +7,12 @@ import About from "./pages/About/About.js"
 import Blog from "./pages/Blog/Blog.js"
 import Post from "./pages/Post/Post.js"
 
+import Navigation from './components/Navigation/Navigation';
+
 function App() {
   return (
       <Router>
+        <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
