@@ -19,3 +19,8 @@ export const buttonTextColor = theme('mode', {
   light: '#eee',
   dark: '#222'
 });
+
+export const secondaryBackground = theme('mode', {
+  light: '#fff',
+  dark: '#333'
+});
