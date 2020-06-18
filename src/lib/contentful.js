@@ -9,11 +9,11 @@ export function getPosts() {
     accessToken: ACCESS_TOKEN
   })
 
-  return client.getEntries({ content_type: 'posts' })
+  return client.getEntries({ content_type: 'blogPost' })
 }
 
 export function getPostBySlug(slug) {
   const client = createClient({ space: SPACE_ID, accessToken: ACCESS_TOKEN })
 
-  return client.getEntries({ content_type: 'posts', 'fields.slug': slug })
+  return client.getEntries({ content_type: 'blogPost', 'fields.slug': slug })
 }
