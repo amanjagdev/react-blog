@@ -28,7 +28,7 @@ const Navigation = (props) => {
                 <div className="links">
                     <a className="link" onClick={() => props.history.push('/')}>Home</a>
                     <a className="link" onClick={() => props.history.push('/blog')}>Blog</a>
-                    <Button onClick={() => themeToggle.toggle()}>Toggle Theme</Button>
+                    <Button onClick={() => themeToggle.toggle()}>Theme</Button>
                 </div>
             </nav>
         </div>

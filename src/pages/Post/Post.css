@@ -1,5 +1,6 @@
 .Post {
-  margin: 20px 10%;
+  margin: 20px 10% 0 10%;
+  padding-bottom: 40px;
 }
 
 .Post .title {
@@ -13,7 +14,7 @@
 }
 
 .Post .content {
-  margin: 20px auto;
+  margin: 20px auto 0 auto;
   line-height: 1.8;
 }
 

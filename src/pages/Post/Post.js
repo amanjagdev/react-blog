@@ -20,7 +20,6 @@ const Post = (props) => {
             {
                 post &&
                 <>
-
                     <h2 className="title">{post.title}</h2>
                     <img src={`https:${post.heroImage.fields.file.url}`} alt="" />
                     <ReactMarkdown

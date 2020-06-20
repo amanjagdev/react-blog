@@ -28,4 +28,20 @@ nav .links {
       -ms-flex-align: center;
           align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav .logo {
+    padding: 0;
+    margin: 10px auto 15px auto;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
 /*# sourceMappingURL=Navigation.css.map */
