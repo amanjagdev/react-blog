@@ -1,11 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
+import { withRouter } from 'react-router-dom'
 
 //Theme
 import { secondaryBackground } from '../../context/theme'
 
-const PostCard = ({ post }) => {
-    console.log(post);
+const PostCard = ({ post, history }) => {
+    const goToPost = () => {
+        history.push(`/blog/${post.slug}`)
+    }
 
     const Card = styled.div`
         background: ${secondaryBackground};
@@ -15,10 +18,12 @@ const PostCard = ({ post }) => {
     `;
 
     return (
-        <Card className="Card" style={{
-            marginBottom: 20
+        <Card className="Card" onClick={() => goToPost()} style={{
+            marginBottom: 20,
+            width: '200px',
+            height: '350px',
         }}>
-            <img src="https://via.placeholder.com/150" alt="" width="100%"/>
+            <img src={`https:${post.heroImage.fields.file.url}`} alt="" width="200px" />
             <h3 style={{
                 margin: 0
             }}>{post.title}</h3>
@@ -27,4 +32,4 @@ const PostCard = ({ post }) => {
     )
 }
 
-export default PostCard
+export default withRouter(PostCard)

@@ -1,11 +1,14 @@
 import React from 'react';
 
 //Importing Components
+import About from '../About/About'
+import Blog from '../Blog/Blog'
 
 const Home = () => {
     return (
         <div>
-            Home
+            <About />
+            <Blog />
         </div>
     )
 }

@@ -24,9 +24,7 @@ const Navigation = (props) => {
     return (
         <div className="Nav">
             <nav>
-                <div className="logo">
-                    Aman Jagdev
-                </div>
+                <a className="link logo" onClick={() => props.history.push('/')}>Aman Jagdev</a>
                 <div className="links">
                     <a className="link" onClick={() => props.history.push('/')}>Home</a>
                     <a className="link" onClick={() => props.history.push('/blog')}>Blog</a>

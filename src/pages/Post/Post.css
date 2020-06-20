@@ -1,0 +1,29 @@
+.Post {
+  margin: 20px 10%;
+}
+
+.Post .title {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px auto;
+}
+
+.Post img {
+  width: 100%;
+}
+
+.Post .content {
+  margin: 20px auto;
+  line-height: 1.8;
+}
+
+.Post .content a {
+  text-decoration: none;
+  color: #29bc3a;
+  font-weight: 600;
+}
+
+.Post .content ul {
+  margin-left: 30px;
+}
+/*# sourceMappingURL=Post.css.map */

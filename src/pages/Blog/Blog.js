@@ -23,10 +23,12 @@ const Blog = () => {
             <h1 style={{
                 marginBottom: 40
             }}>Recent Posts</h1>
-            {
-                posts &&
-                posts.map(post => <PostCard post={post} key={post.title} />)
-            }
+            <div className="post-container">
+                {
+                    posts &&
+                    posts.map(post => <PostCard post={post} key={post.title} />)
+                }
+            </div>
         </div>
     )
 }
