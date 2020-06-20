@@ -12,23 +12,23 @@ const About = () => {
                 <div className="right">
                     <div className="desc">
                         <h3>Aman Jagdev</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum voluptatum quas eaque voluptate voluptatem ratione itaque pariatur fuga harum?</p></div>
+                        <p>I am a passionate Full stack Developer. I like to tinker with the technology. I usually work upon the MERN stack and i am familiar with Cloud too 😁</p></div>
                     <div className="links">
-                        <a href="https://instagram.com" className="link">
+                        <a href="https://instagram.com/amankrjagdev" className="link">
                             <i className="fab fa-instagram"></i>
                         </a>
-                        <a href="https://github.com" className="link">
-                            <i className="fab fa-instagram"></i>
+                        <a href="https://github.com/amanjagdev" className="link">
+                        <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://linkedin.com" className="link">
-                            <i className="fab fa-instagram"></i>
+                        <a href="https://linkedin.com/in/amanjagdev" className="link">
+                        <i class="fab fa-linkedin"></i>
                         </a>
                     </div>
                 </div>
             </div>
             <div className="welcome">
-                <h4>Welcome to my Blog Site </h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae nemo vero voluptas error voluptatibus delectus, qui excepturi a harum ad odit, repellat similique placeat temporibus iure quam cupiditate consequuntur natus?</p>
+                <h4>Welcome Everyone 👋</h4>
+                <p>This is where i post interesting tech stories , tutorials and intersting stories from my life. In some stories i might go with the flow but still hope that you like it.</p>
             </div>
         </div>
     )

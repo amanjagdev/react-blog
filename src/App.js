@@ -8,6 +8,7 @@ import Blog from "./pages/Blog/Blog.js"
 import Post from "./pages/Post/Post.js"
 
 import Navigation from './components/Navigation/Navigation';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/blog" exact component={Blog} />
           <Route path="/blog/:slug" component={Post} />
         </Switch>
+        <Footer />
       </Router>
   );
 }
